@@ -1,0 +1,7 @@
+m=float(input('Digite a medida em metros'))
+print('Em km {:.3f}',format(m/1000))
+print('Em hm {:.3f}'.format(m/100))
+print('Em dam {:.3f}'.format(m/10))
+print('Em dm {:.0f}'.format(m*10))
+print('Em cm {:.0f}'.format(m*100))
+print('Em mm {:.0f}'.format(m*1000))

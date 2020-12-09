@@ -1,0 +1,6 @@
+numero = str(input('Digite um número de 0 a 9999'))
+print('Milha:',numero[0])
+if()
+print('Centena:',numero[1])
+print('Dezena:',numero[2])
+print('Unidade:',numero[3])

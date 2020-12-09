@@ -1,0 +1,6 @@
+metro=float(input('Digite o valor em metros'))
+print('{:.3f} metros são, também, {:.3f} centímetros e {:.3f} milímetros'.format(metro,metro*100,metro*1000))
+n=int(input('Digite o número pra tabuada'))
+print('{}*1 = {}\n{}*2 = {}\n{}*3 = {}\n{}*4 = {}\n{}*5 = {}\n{}*6 = {}\n{}*7 = {}\n{}*8 = {}\n{}*9 = {}\n{}*10 = {}'.format(n,n*1,n,n*2,n,n*3,n,n*4,n,n*5,n,n*6,n,n*7,n,n*8,n,n*9,n,n*10))
+grana=float(input('Quanto você tem em reais?'))
+print('Isso só compra {:.2f} dólares'.format(grana/3.74), end=' POBRE FODIDO DO KRL')
